@@ -29,7 +29,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Extract Android project
-        run: unzip TouchRacerMobile-source.zip -d project
+        run: unzip TouchRacerMobile-source-fixed.zip -d project
 
       - name: Build debug APK
         working-directory: project
